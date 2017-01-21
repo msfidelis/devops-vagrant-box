@@ -1,4 +1,5 @@
-apt-get update && apt-get upgrade -y
+#UTILS
+apt-get update && apt-get install git  -y
 
 #DOCKER
 curl -sSL https://get.docker.io | sh;
